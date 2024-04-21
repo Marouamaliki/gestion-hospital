@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  background: url(signin1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat';
+  overflow: auto;
+}
+
+a,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 5%;
+  border-radius: 3px;
+}
+
+.container.container--static {
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  color: #eee;
+  opacity: 0.6;
+}
+
+.container.container--sliding {
+  width: 35%;
+  height: 50%;
+  background-color: #fefefe;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
+  & .slider-content.signup {
+    display: none;
+  }
+}
+
+.info-box {
+  width: 40%;
+  margin: 5% auto;
+}
+
+.info-box.left {
+  float: left;
+}
+
+
+.heading {
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+
+.heading.alt {
+  margin-bottom: 10%;
+  text-transform: uppercase;
+}
+
+.info-text {
+  font-family: 'Roboto';
+  font-size: 0.7em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.info-text.alt {
+  color: #aaa;
+}
+
+.button {
+  width: 35%;
+  margin-top: 15px;
+  padding: 2% 5%;
+  background-color: transparent;
+  color: #eee;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  font-family: 'Montserrat';
+  font-size: 0.7em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button {
+    border: 2px solid #0e5add; /* Couleur de bordure bleu ciel */
+    background-color: #0e5add; /* Couleur de fond bleu ciel */
+    color: #ffffff; /* Couleur du texte en blanc */
+    padding: 10px 20px; /* Espacement intérieur pour le lien */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition fluide */
+}
+
+.button:hover {
+    background-color: #ffffff; /* Couleur de fond blanc au survol */
+    color: #0e5add; /* Couleur du texte en bleu ciel au survol */
+}
+
+
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid #ddd;
+  font-family: 'Montserrat';
+  &:focus {
+    outline: 0;
+  }
+}

@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(116, 161, 189);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    margin-top: 200px;
+    max-width: 400px;
+    padding: 20px;
+    border:2px solid gray;
+    background-color:darkblue;
+    box-shadow: 0 0 10px lightblue;
+}
+h1{
+    color:rgb(116, 161, 189);
+    text-align: center;
+}
+p{
+    color:gray;
+    text-align: center;
+    text-decoration: wavy;
+}
+label{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 8px;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    
+}
+.p{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.q{
+    background-color: lightslategrey;
+    color:darkblue;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+}
+.q:hover{
+    background-color: gray;
+}

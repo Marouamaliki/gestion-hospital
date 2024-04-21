@@ -1,0 +1,44 @@
+/* Style du titre */
+.heading {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Style du formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style des champs de saisie */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style du bouton de soumission */
+.button {
+    background-color: #0e5add;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #0e5add;
+}
+
+/* Style pour le conteneur du bouton */
+div {
+    text-align: center;
+}

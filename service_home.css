@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+.main
+ {
+    background-color: rgb(217, 232, 244);
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+}
+
+.Klinik-desc {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.Klinik-desc span {
+    margin-left: 10px;
+}
+
+.Klinik-desc i {
+    margin-left: 20px;
+    margin-right: -5px;
+}
+
+.Klinik-img {
+    display: flex;
+    margin-right: 70px;
+
+}
+
+.contact {
+    margin-top: 15px;
+
+}
+
+.icon {
+    display: flex;
+    margin-left: 5px;
+}
+
+.icon i {
+    height: 32px;
+    width: 32px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 9px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+}
+
+.logo {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.logo i {
+    font-size: 25px;
+
+}
+
+.logo span {
+    color: #0e5add;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul {
+    display: flex;
+
+}
+
+.menu ul li {
+    list-style: none;
+    margin-right: 140px;
+    padding-top: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul button {
+    border: none;
+    background-color: #0e5add;
+    color: white;
+    width: 9vw;
+    height: 7vh;
+    font-size: 16px;
+}
+
+.menu ul i {
+    margin-left: 10px;
+}
+.a1 {
+    border: 2px solid #0e5add; /* Couleur de bordure bleu ciel */
+    background-color: #0e5add; /* Couleur de fond bleu ciel */
+    color: #ffffff; /* Couleur du texte en blanc */
+    padding: 10px 20px; /* Espacement intérieur pour le lien */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition fluide */
+}
+
+.a1:hover {
+    background-color: #ffffff; /* Couleur de fond blanc au survol */
+    color: #0e5add; /* Couleur du texte en bleu ciel au survol */
+}
+
+.home {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 80px 40px 40px 80px;
+  }
+  
+  .card {
+    width: min(100%, 500px);
+    background: rgba(255, 255, 255);
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    z-index: 5;
+  }
+  
+  .card > img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 16px 16px 0 0;
+    filter: contrast(70%);
+    transition: all 0.6s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  }
+  
+  .card > img:hover {
+    filter: contrast(100%);
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 20px;
+  }
+  
+  .card-content > p {
+    margin-bottom: 10px;
+  }
+  
+  .card-content > p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1e40af;
+  }
+  
+  .card-content > p:nth-child(2) {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6b7280;
+  }
+.a1 {
+    border: 2px solid #0e5add; /* Couleur de bordure bleu ciel */
+    background-color: #0e5add; /* Couleur de fond bleu ciel */
+    color: #ffffff; /* Couleur du texte en blanc */
+    padding: 10px 20px; /* Espacement intérieur pour le lien */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition fluide */
+}
+
+.a1:hover {
+    background-color: #ffffff; /* Couleur de fond blanc au survol */
+    color: #0e5add; /* Couleur du texte en bleu ciel au survol */
+
+}
+  .footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.footer .Klinik-desc,
+.footer .Klinik-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .Klinik-desc span {
+    margin-left: 10px;
+}
+
+.footer .Klinik-img .contact,
+.footer .Klinik-img .icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer .Klinik-img .contact span {
+    margin-left: 5px;
+}
+
+.footer .icon i {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.copyright-map {
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 0px;
+    padding: 35px 8%;
+    margin-top: 35px;
+    text-transform: uppercase;
+  }
+  .col2{
+    grid-area: 1/1/4/4;
+  }
+  .col3{
+    grid-area: 1/6/4/8;
+  }
+  .col4{
+    grid-area: 1/8/4/10;
+  }
+  
+  
+  .col2 , .col3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__newletter{
+    border: 1px solid #0e5add;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .footer__newletter input{
+    width: 75%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+  .footer__newletter button {
+    background-color: transparent;
+    width: 76px;
+    height: 100%;
+    border: 0;
+    transition:0.5s ;
+    cursor: pointer;
+  }
+   .footer__newletter button:hover {
+    font-weight: bold;
+   }
+   .icons i{
+    border: 1px solid#0e5add;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+    border-radius: 50%;
+    transition: 0.5s ease-out;
+   }
+   .icons i:hover {
+    background-color: #0e5add;
+    color: #eae2d2;
+   }
+   .small_title{
+    border-bottom: 1px solid #0e5add;
+    padding: 10px 0;
+   }
+   .col2 a  , .col3 a{
+      margin: 5px 0;
+    transition: 0.5s ease-out;
+   }
+   .col2 a:hover  , .col3 a:hover {
+    font-weight: bold;
+  }
+  
+  .col4 button{
+    border: 1px solid#0e5add;
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+  }
+  .col4 button:hover {
+    background-color: #0e5add;
+    color: antiquewhite;
+  }
+
+.copyright {
+    color: #0e5add;
+}  
